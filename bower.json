@@ -3,7 +3,12 @@
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "animate.css": "animate-css#^3.5.2",
+    "letteringjs": "^0.7.0",
+    "textillate": "^0.4.0",
+    "scrollreveal": "^3.3.5",
+    "skel": "^3.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",

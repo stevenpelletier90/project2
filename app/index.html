@@ -1,61 +1,271 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>project2</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome Space Monkey!</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+
+  <div class="splash"></div>
+  <div class="title">
+    <h3 class="tlt">
+	<ul class="texts">
+		<li data-in-effect="rollIn" data-out-effect="fadeOut" data-out-shuffle="true">AUTHOR OF FIGHT CLUB</li>
+		<li data-in-effect="fadeIn" data-out-effect="fadeOut">AND CHOKE</li>
+    <li></li>
+	</ul>
+</h1>
+    <h1 class="tlt" data-in-effect="fadeIn">Chuck Palahniuk</h1>
+    <div class="down">
+    <h3 id="enter-btn">ENTER</h3>
+    <a class="button special color1 circle icon fa-angle-right" id="right-button">Next</a>
     </div>
-    
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+  </div>
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Panel (Banner) -->
+      <section class="panel banner right">
+        <div class="content color0 span-3-75">
+          <h1 class="major">Chuck Palahniuk</h1>
+          <p>Born February 21, 1962, Charles Michael Palahniuk spent his early childhood living out of a mobile home in Burbank, Washington. His parents, Carol and Fred Palahniuk, separated and divorced when he was fourteen, leaving Chuck and his siblings
+            to spend much of their time on their maternal grandparent’s cattle ranch.</p>
+            <p>Born February 21, 1962, Charles Michael Palahniuk spent his early childhood living out of a mobile home in Burbank, Washington. His parents, Carol and Fred Palahniuk, separated and divorced when he was fourteen, leaving Chuck and his siblings
+              to spend much of their time on their maternal grandparent’s cattle ranch.</p>
+          <ul class="actions">
+            <li>
+              <a class="button special color1 circle icon fa-angle-right" href="#first">Next</a>
+            </li>
+          </ul>
+        </div>
+        <div class="image filtered span-1-75" data-position="25% 25%"><img alt="" src="images/pic01.jpg"></div>
+      </section>
+      <!-- Panel (Spotlight) -->
+      <section class="panel spotlight medium right foo" id="first">
+        <div class="content span-7">
+          <h2 class="major">About the Man</h2>
+          <p>The first rule of fight club is...</p>
+        </div>
+        <div class="image filtered tinted" data-position="top left"><img alt="" src="images/pic02.jpg"></div>
+      </section>
+      <!-- Panel -->
+      <section class="panel color1 bar">
+        <div class="intro joined">
+          <h2 class="major">Books that have become films or TV</h2>
+          <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+        </div>
+        <div class="inner"></div>
+      </section>
+      <!-- Panel (Spotlight) -->
+      <section class="panel spotlight large left foo" id="three">
+        <div class="content span-5">
+          <h2 class="major">Magna amet tempus</h2>
+          <p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis
+            sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+        </div>
+        <div class="image filtered tinted" data-position="top right"><img alt="" src="images/pic03.jpg"></div>
+      </section>
+      <!-- Panel -->
+      <section class="panel">
+        <div class="intro color2 bar">
+          <h2 class="major">Works</h2>
+          <p>Truth is stranger than fiction, at least for those blessed with interesting lives. The rest of us have no choice but to live vicariously through their stories. In the case of bestselling cult author Chuck Palahniuk, the embellishment of his
+            exploits by fans has made it hard to tell exactly where reality ends and the storytelling begins. There are those who would have us believe he entered this world kicking and screaming, brandishing a pen, when in fact he comes from much more
+            humble (albeit interesting) beginnings.</p>
+        </div>
+        <div class="gallery">
+          <div class="group span-3">
+            <a class="image filtered span-3" data-position="bottom" href="images/gallery/fulls/01.jpg"><img alt="" src="images/gallery/thumbs/01.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="center" href="images/gallery/fulls/02.jpg"><img alt="" src="images/gallery/thumbs/02.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="bottom" href="images/gallery/fulls/03.jpg"><img alt="" src="images/gallery/thumbs/03.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+          </div>
+          <a class="image filtered span-2-5" data-position="top" href="images/gallery/fulls/04.jpg"><img alt="" src="images/gallery/thumbs/04.jpg">
+            <div class="myCaptions">
+              <p>FIGHT CLUB</p>
+            </div>
+          </a>
+          <div class="group span-4-5">
+            <a class="image filtered span-3" data-position="top" href="images/gallery/fulls/05.jpg"><img alt="" src="images/gallery/thumbs/05.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="center" href="images/gallery/fulls/06.jpg"><img alt="" src="images/gallery/thumbs/06.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="bottom" href="images/gallery/fulls/07.jpg"><img alt="" src="images/gallery/thumbs/07.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-3" data-position="top" href="images/gallery/fulls/08.jpg"><img alt="" src="images/gallery/thumbs/08.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+          </div>
+          <a class="image filtered span-2-5" data-position="right" href="images/gallery/fulls/09.jpg"><img alt="" src="images/gallery/thumbs/09.jpg">
+            <div class="myCaptions">
+              <p>FIGHT CLUB</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- Panel -->
+      <section class="panel">
+        <div class="intro color2">
+          <h2 class="major">Works</h2>
+          <p>Truth is stranger than fiction, at least for those blessed with interesting lives. The rest of us have no choice but to live vicariously through their stories. In the case of bestselling cult author Chuck Palahniuk, the embellishment of his
+            exploits by fans has made it hard to tell exactly where reality ends and the storytelling begins. There are those who would have us believe he entered this world kicking and screaming, brandishing a pen, when in fact he comes from much more
+            humble (albeit interesting) beginnings.</p>
+        </div>
+        <div class="gallery">
+          <div class="group span-3">
+            <a class="image filtered span-3" data-position="bottom" href="images/gallery/fulls/01.jpg"><img alt="" src="images/gallery/thumbs/01.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="center" href="images/gallery/fulls/02.jpg"><img alt="" src="images/gallery/thumbs/02.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="bottom" href="images/gallery/fulls/03.jpg"><img alt="" src="images/gallery/thumbs/03.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+          </div>
+          <a class="image filtered span-2-5" data-position="top" href="images/gallery/fulls/04.jpg"><img alt="" src="images/gallery/thumbs/04.jpg">
+            <div class="myCaptions">
+              <p>FIGHT CLUB</p>
+            </div>
+          </a>
+          <div class="group span-4-5">
+            <a class="image filtered span-3" data-position="top" href="images/gallery/fulls/05.jpg"><img alt="" src="images/gallery/thumbs/05.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="center" href="images/gallery/fulls/06.jpg"><img alt="" src="images/gallery/thumbs/06.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-1-5" data-position="bottom" href="images/gallery/fulls/07.jpg"><img alt="" src="images/gallery/thumbs/07.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+            <a class="image filtered span-3" data-position="top" href="images/gallery/fulls/08.jpg"><img alt="" src="images/gallery/thumbs/08.jpg">
+              <div class="myCaptions">
+                <p>FIGHT CLUB</p>
+              </div>
+            </a>
+          </div>
+          <a class="image filtered span-2-5" data-position="right" href="images/gallery/fulls/09.jpg"><img alt="" src="images/gallery/thumbs/09.jpg">
+            <div class="myCaptions">
+              <p>FIGHT CLUB</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- Panel -->
+      <section class="panel color4-alt">
+        <div class="intro color4">
+          <h2 class="major">Contact</h2>
+          <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+        </div>
+        <div class="inner columns divided">
+          <div class="span-3-25">
+            <h2 class="major">TEST</h2>
+            <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+          </div>
+        </div>
+      </section>
+      <section class="panel color4-alt">
+        <div class="inner columns divided">
+          <div class="span-3-25">
+            <h2 class="major">TEST</h2>
+            <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+          </div>
+          <div class="span-1-5">
+            <ul class="contact-icons color1">
+              <li class="icon fa-twitter">
+                <a href="https://twitter.com/chuckpalahniuk">Follow Chuck on Twitter</a>
+              </li>
+              <li class="icon fa-facebook">
+                <a href="https://www.facebook.com/chuckpalahniuk/">Like Chuck on Facebook</a>
+              </li>
+              <li class="icon fa-instagram">
+                <a href="https://www.instagram.com/chuckpalahniuk/">Chuck's Instagram</a>
+              </li>
+              <li class="icon fa-window-maximize">
+                <a href="http://chuckpalahniuk.net/">Official Website</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Copyright -->
+      <div class="copyright">
+        &copy; Steven Pelletier <a href="https://stevendpelletier.com" target="_blank">University of Central Florida</a>.
+      </div>
+    </div>
+  </div>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/letteringjs/jquery.lettering.js"></script>
+  <script src="/bower_components/textillate/jquery.textillate.js"></script>
+  <script src="/bower_components/scrollreveal/dist/scrollreveal.js"></script>
+  <script src="/bower_components/skel/src/skel.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
